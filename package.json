@@ -1,0 +1,23 @@
+{
+  "name": "amazon-api",
+  "version": "1.0.0",
+  "description": "api to access details of top deals of amazon.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazon",
+    "api",
+    "amazon",
+    "api"
+  ],
+  "author": "santhosh",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "axios": "^1.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  }
+}
