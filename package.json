@@ -1,16 +1,19 @@
 {
-  "name": "amazon-api",
+  "name": "currency-api",
   "version": "1.0.0",
-  "description": "api to access details of top deals of amazon.in",
+  "description": "api to access details of currency conversion rates",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "amazon",
+    "currency",
     "api",
-    "amazon",
-    "api"
+    "conversion",
+    "dollar",
+    "euro",
+    "pound",
+    "rupee"
   ],
   "author": "santhosh",
   "license": "ISC",
