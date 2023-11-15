@@ -50,13 +50,13 @@ app.get("/", (req, res) => {
 
 app.get("/api/currency", async (req, res) => {
   try {
-    const start = performance.now();
+    //const start = performance.now();
     let result = await fetchData(link);
-    const end = performance.now();
+    //const end = performance.now();
     return res.status(200).json({
       message: "data fetched successfully",
       success: true,
-      time: `${end - start} ms`,
+      //time: `${end - start} ms`,
       data: result,
     });
   } catch (error) {
